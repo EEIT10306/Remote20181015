@@ -41,12 +41,14 @@ public class LoginController {
 		
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.errors";
+
 		}
 		
 //呼叫model
 		CustomerBean bean = customerService.login(username, password);
 		
 //根據model執行結果，導向view
+
 		if(bean==null) {
 			errors.put("password", "Login failed, please try again.");
 			return "login.errors";
