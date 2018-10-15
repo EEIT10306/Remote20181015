@@ -7,13 +7,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
 </head>
-<body>
 
+<body>
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Poduct1</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Poduct2</a></h3>
-
+Hahahahaha
+Second Commit PLZ!!
+Hahahahaha
+Third Commit PLZ!!
+Hahahahaha
+fifth Commit PLZ!!
 </body>
 </html>
