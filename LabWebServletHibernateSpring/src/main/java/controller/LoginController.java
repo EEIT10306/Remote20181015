@@ -24,6 +24,7 @@ public class LoginController {
 	private ApplicationContext context;
 	int a = 1;
 	int b = 1;
+	int c = 1;
 	@RequestMapping("/secure/login.controller")
 	public String method(String username, String password, Model model, Locale locale) {
 //接收資料
