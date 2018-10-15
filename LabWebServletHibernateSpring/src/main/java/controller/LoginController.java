@@ -26,7 +26,7 @@ public class LoginController {
 	@RequestMapping("/secure/login.controller")
 	public String method(String username, String password, Model model, Locale locale) {
 //接收資料
-//驗證資料HAHAHAH@@
+//驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
 		model.addAttribute("errors", errors);
 		
@@ -43,10 +43,10 @@ public class LoginController {
 			return "login.errors";
 		}
 		
-//呼叫model 22222@@@@
+//呼叫model 
 		CustomerBean bean = customerService.login(username, password);
 		
-//根據model執行結果，導向view 33333 14546
+//根據model執行結果，導向view 
 		if(bean==null) {
 			errors.put("password", "Login failed, please try again.");
 			return "login.errors";
