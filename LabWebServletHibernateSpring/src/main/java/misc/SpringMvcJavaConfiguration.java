@@ -39,6 +39,7 @@ public class SpringMvcJavaConfiguration implements WebMvcConfigurer {
 		internalResourceViewResolver.setPrefix("/WEB-INF/jsp/");
 		internalResourceViewResolver.setSuffix(".jsp");
 		registry.viewResolver(internalResourceViewResolver);
+		System.out.println("第一次commit");
 	}
 
 	@Override
