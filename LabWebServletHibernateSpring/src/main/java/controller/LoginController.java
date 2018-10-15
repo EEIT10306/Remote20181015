@@ -42,7 +42,6 @@ public class LoginController {
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.errors";
 		}
-		
 //呼叫model
 		CustomerBean bean = customerService.login(username, password);
 		
