@@ -46,7 +46,7 @@ public class LoginController {
 //呼叫model 22222@@@@
 		CustomerBean bean = customerService.login(username, password);
 		
-//根據model執行結果，導向view 33333
+//根據model執行結果，導向view 33333 14546
 		if(bean==null) {
 			errors.put("password", "Login failed, please try again.");
 			return "login.errors";
