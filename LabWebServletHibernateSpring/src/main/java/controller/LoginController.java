@@ -43,7 +43,7 @@ public class LoginController {
 			return "login.errors";
 		}
 		
-//呼叫model 22222
+//呼叫model 22222@@@@
 		CustomerBean bean = customerService.login(username, password);
 		
 //根據model執行結果，導向view
