@@ -8,10 +8,14 @@
 <title>Home</title>
 </head>
 <body>
-123456
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-
+Hahahahaha
+Second Commit PLZ!!
+Hahahahaha
+Third Commit PLZ!!
+Hahahahaha
+fifth Commit PLZ!!
 </body>
 </html>
