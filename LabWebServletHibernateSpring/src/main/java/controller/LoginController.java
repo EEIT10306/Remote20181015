@@ -26,7 +26,7 @@ public class LoginController {
 	@RequestMapping("/secure/login.controller")
 	public String method(String username, String password, Model model, Locale locale) {
 //接收資料
-//驗證資料
+//驗證資料HAHAHAH
 		Map<String, String> errors = new HashMap<String, String>();
 		model.addAttribute("errors", errors);
 		
@@ -43,7 +43,7 @@ public class LoginController {
 			return "login.errors";
 		}
 		
-//呼叫model
+//呼叫model 22222
 		CustomerBean bean = customerService.login(username, password);
 		
 //根據model執行結果，導向view
