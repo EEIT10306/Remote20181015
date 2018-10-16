@@ -1,1 +1,8 @@
 /classes/
+/target/
+/.class
+/.war
+/.project
+/.classpath
+/.settings/
+/.springBeans
